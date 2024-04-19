@@ -26,7 +26,7 @@
 - Proposed method produces high anomaly scores for the anomalous frames and hence is suited for anomaly detection tasks. 
 - Our overall goal is to extract simple and reliable features which are descriptive, i.e. can be used by an unsupervised algorithm to discover the important image features in a large video set in order to detect unusual events. 
 
-![](Geek AI mania 2018 Final/Aspose.Words.04a37028-8bd7-46b5-abf3-0fc0dc84d63a.003.jpeg)
+![](https://github.com/Agalya1999/Geek-AI-mania/blob/main/Geek%20AI%20mania%202018%20Final/Aspose.Words.04a37028-8bd7-46b5-abf3-0fc0dc84d63a.003.jpeg)
 
 6. **Technology Stack**  
 
