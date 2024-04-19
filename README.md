@@ -1,8 +1,8 @@
 **Anamoly Detection through Surveillance**
 
- **Problem Statement ![ref1]**
+ **Problem Statement**
 
-`               `CCTV cameras produce a huge amount of video data. Effective surveillance can reveal    anomalous events in these videos. Detecting crime occurrences, explosions, accidents etc. are some of the critical tasks in video surveillance. It is challenging to manually find anomalies from the  huge  amount  of  data  available  for  surveillance  purposes  because  of  many  reasons. Occurrence of anomalous events that are of interest for monitoring purpose would be very low compared to normal events. Hence manually analyzing this data to find out anomalous events which has very low probability of occurrence is a very tedious task that causes a considerable amount of man power wastage. Also, manual analysis can lead to human-generated errors. The crowd density in the walkways was variable, ranging from sparse to very crowded. Abnormal events are due to either: the circulation of non-pedestrian entities in the walkways anomalous pedestrian motion patterns. Commonly occurring anomalies include bikers, skaters, small carts, and people walking across a walkway or in the grass that surrounds it. 
+   `CCTV cameras produce a huge amount of video data. Effective surveillance can reveal    anomalous events in these videos. Detecting crime occurrences, explosions, accidents etc. are some of the critical tasks in video surveillance. It is challenging to manually find anomalies from the  huge  amount  of  data  available  for  surveillance  purposes  because  of  many  reasons. Occurrence of anomalous events that are of interest for monitoring purpose would be very low compared to normal events. Hence manually analyzing this data to find out anomalous events which has very low probability of occurrence is a very tedious task that causes a considerable amount of man power wastage. Also, manual analysis can lead to human-generated errors. The crowd density in the walkways was variable, ranging from sparse to very crowded. Abnormal events are due to either: the circulation of non-pedestrian entities in the walkways anomalous pedestrian motion patterns. Commonly occurring anomalies include bikers, skaters, small carts, and people walking across a walkway or in the grass that surrounds it. 
 
 
 
@@ -26,7 +26,7 @@
 - Proposed method produces high anomaly scores for the anomalous frames and hence is suited for anomaly detection tasks. 
 - Our overall goal is to extract simple and reliable features which are descriptive, i.e. can be used by an unsupervised algorithm to discover the important image features in a large video set in order to detect unusual events. 
 
-![](Aspose.Words.04a37028-8bd7-46b5-abf3-0fc0dc84d63a.003.jpeg)
+![](Geek AI mania 2018 Final/Aspose.Words.04a37028-8bd7-46b5-abf3-0fc0dc84d63a.003.jpeg)
 
 6. **Technology Stack**  
 
@@ -36,7 +36,7 @@
 
 `             `The features are extracted from the video with the help of a convolutional neural network (CNN). CNNs are widely used for object recognition and image classification tasks due to its ability of learning spatial features from an image. CNN is used to learn spatial features from each individual frame in the video. A CNN learns hidden patterns in images. So, it can capture even the smallest changes from  frame to frame. ![ref1]In the proposed algorithm, we used parameters of the pre-trained CNN model, called VGGNet for feature extraction, which is trained on large scale ImageNet dataset of more than 15 million images. On ImageNet dataset, VGGNet achieves a top-5 test accuracy of 92.7%. ImageNet consists of over 14 million images belonging to 1000 classes. The network has 16  convolutional  and  fully  connected  layers.  It  performs  3x3  convolutions  and  2x2 pooling from the beginning to the end. The VGGNet consists of layers which perform 3x3 convolutions with stride 1 and pad 1 and The POOL layers do 2x2 max pooling with stride 2 and no padding from beginning to end. The features of each frame are inputted to the next LSTM layer. 
 
-![](Aspose.Words.04a37028-8bd7-46b5-abf3-0fc0dc84d63a.004.png)
+![](Geek AI mania 2018 Final/Aspose.Words.04a37028-8bd7-46b5-abf3-0fc0dc84d63a.004.png)
 
 `                                                      `Fig. Architecture of VGG 16 net 
 
@@ -58,7 +58,7 @@ it = σ((xt + st−1)Wi + bi)        -------à(1) ft = σ((xt + st−1)Wf + bf )
 
 **ARCHITECTURE: ![ref1]**
 
-![](Aspose.Words.04a37028-8bd7-46b5-abf3-0fc0dc84d63a.006.jpeg)
+![](Geek AI mania 2018 Final/Aspose.Words.04a37028-8bd7-46b5-abf3-0fc0dc84d63a.006.jpeg)
 
 - Type-I anomaly is observed when a target is encircling or residing within a region for a prolonged duration of time.  
 - Type-II anomaly demonstrates a target switching between two or more regions for a sustained period of time. 
